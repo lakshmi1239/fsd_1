@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 1</title>
+</head>
+<body>
+    <style>
+        table,tr,th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        form{
+            border: 2px double black;
+            margin: 200PX;
+            padding: 20px;
+        }
+        .tasks{
+            border: 2px double black;
+            margin: 200PX;
+            padding: 20px;
+        }
+    </style> 
+    <table>
+        <tr>
+            <th colspan="2">Student details</th>
+            <th rowspan="2">course</th>
+            <th rowspan="2">time(in mounts)</th>
+        </tr>
+        <tr>
+            <th>stu name</th>
+            <th>stu no</th>
+        </tr>
+        <tr>
+            <td>vara</td>
+            <td>23A91F0090</td>
+            <td>python</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>vara</td>
+            <td>23A91F0090</td>
+            <td>python</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>prasanna</td>
+            <td>23A91F0058</td>
+            <td rowspan="3">java</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>lokesh</td>
+            <td>23A91F0096</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>lakshmi</td>
+            <td>23A91F0089</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>lahari</td>
+            <td>23A91F0023</td>
+            <td>sql</td>
+            <td>7</td>
+        </tr>
+    </table>
+    <form action="post">
+        <label for="">User Name:</label>
+        <input type="text" placeholder="Enter user name................"><br><br><br>
+        <label for="">password:</label>
+        <input type="password" placeholder="Enter PASSWORD................"><br><br><br>
+        <fieldset>
+            <legend>GENDER</legend>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender">others
+        </fieldset><br><br>
+        <label for=""><b>Select The Location</b></label><br>
+        <select name="" id="">
+            <option value="">Location</option>
+            <option value="">kkd</option>
+            <option value="">hyd</option>
+            <option value="">vizag</option>
+            <option value="">rjy</option>
+            <option value="">dehli</option>
+            <option value="">mi</option>
+            <option value="">csk</option>
+            <option value="">dc</option>
+            <option value="">kkr</option>
+            <option value="">srh</option>
+        </select><br><br>
+        <label for=""><b>Select The Courses</b></label><br>
+        <input type="checkbox" name="task">Web development <br>
+        <input type="checkbox" name="task">sql <br>
+        <input type="checkbox" name="task">git <br>
+        <input type="checkbox" name="task">git hub <br>
+        <input type="checkbox" name="task">java <br>    
+        <input type="checkbox" name="task">python <br><br>
+        <input type="submit">
+    </form>
+    <fieldset class="tasks">
+        <legend>our targets</legend>
+        <ol>
+            <li>Web development</li>
+            <li>sql</li>
+            <li>git</li>
+            <li>gtihub</li>
+            <li>java</li>
+            <li>python</li>
+        </ol>
+    </fieldset>
+
+</body>
+</html>
