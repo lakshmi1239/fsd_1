@@ -22,7 +22,10 @@
             padding: 20px;
         }
     </style> 
-    <table>
+    <a href="#table">table</a>
+    <a href="#form">form</a>
+    <a href="#targets">target</a>
+    <table id="table">
         <tr>
             <th colspan="2">Student details</th>
             <th rowspan="2">course</th>
@@ -67,7 +70,7 @@
             <td>7</td>
         </tr>
     </table>
-    <form action="post">
+    <form action="post" id="form">
         <label for="">User Name:</label>
         <input type="text" placeholder="Enter user name................"><br><br><br>
         <label for="">password:</label>
@@ -101,9 +104,9 @@
         <input type="checkbox" name="task">python <br><br>
         <input type="submit">
     </form>
-    <fieldset class="tasks">
+    <fieldset class="tasks" id="targets">
         <legend>our targets</legend>
-        <ol>
+        <ol type="A">
             <li>Web development</li>
             <li>sql</li>
             <li>git</li>
