@@ -1,0 +1,33 @@
+body{
+    margin: 100px 300px;
+    border: 3px double black;
+    padding: 20px 60px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 750px;
+    line-height: 1.5;
+    }
+.heading{
+    text-align: center;
+    }
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    }
+a{
+    text-decoration: none;
+}
+h3{
+    background-color: antiquewhite;
+}
+.signature{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+} 
+.Personal_Profile{
+    justify-content: space-between;
+    line-height: 3;
+    display: grid;
+    grid-template-columns: auto auto;
+}
