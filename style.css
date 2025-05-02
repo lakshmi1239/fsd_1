@@ -16,7 +16,7 @@ table,tr,td,th{
     }
 a{
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 h3{
     background-color: antiquewhite;
@@ -28,8 +28,16 @@ h3{
     justify-content: space-between;
 } 
 .Personal_Profile{
-    justify-content: space-between;
+    justify-content: start;
     line-height: 3;
     display: grid;
     grid-template-columns: auto auto;
+    gap:10px;
+}
+.Personal{
+    justify-content: start;
+    /* line-height: 2; */
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:10px;
 }
